@@ -40,5 +40,12 @@ Permissions are assigned through roles rather than individually.
 
 Phase 1: Design Complete
 Phase 2: Implementation In Progress
+## Access Matrix
+
+| Role | View Resources | Create Resources | Modify Resources | Delete Resources | Manage IAM |
+|--------|--------|--------|--------|--------|--------|
+| Admin | Yes | Yes | Yes | Yes | Yes |
+| Developer | Yes | Yes | Yes | No | No |
+| Read-Only User | Yes | No | No | No | No |
 
 🚀 Project Started
