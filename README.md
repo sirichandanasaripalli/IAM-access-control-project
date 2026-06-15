@@ -1,41 +1,20 @@
-# IAM Access Control Project
+## What I Learned
 
-## Project Overview
+- Identity and Access Management (IAM)
+- Principle of Least Privilege
+- Role-Based Access Control (RBAC)
+- Importance of assigning permissions based on job responsibilities
 
-This project demonstrates Identity and Access Management (IAM) principles using Role-Based Access Control (RBAC) and the Principle of Least Privilege.
-
-## Objectives
-
-- Create Admin, Developer, and Read-Only roles
-- Apply least privilege principles
-- Restrict unauthorized access
-- Document security decisions
-
-## Roles
+## Example Roles
 
 ### Admin
-- Full access to resources
+- Full project management access
 
 ### Developer
 - Create and modify resources
-- Limited administrative permissions
+- No billing access
 
 ### Read-Only User
 - View resources only
-- No modification permissions
-
-## Security Principles
-
-- Least Privilege
-- Role-Based Access Control (RBAC)
-- Separation of Duties
-
-## Tools
-
-- Google Cloud Platform (GCP)
-- IAM
-- GitHub
-
-## Status
 
 🚀 Project Started
